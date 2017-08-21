@@ -51,9 +51,12 @@
           $fields = array(
             "id", "src", "w_h", "views", "addition_time"
           ); 
-
+          
+           // Посты которые ещё не просмотрены
+          $notViews = "`id` NOT IN(select post_id from views where who_viewed = '".$_SERVER['REMOTE_ADDR']."')";
+          
           // Всего постов в таблице
-          $postCountQuery = dbQuery("select COUNT(*) from posts ".$where);
+          $postCountQuery = dbQuery("select COUNT(*) from posts where ".$notViews);
           $postCount = $postCountQuery['status'] ? intval(dbFetch($postCountQuery['data'])[0]) : die($postCountQuery['data']);
 
           // Параметры
@@ -68,9 +71,8 @@
               $where.= "`id` = ".$id;
             } else {
               // Посты которые ещё не просмотрены
-              $where.= "`id` NOT IN(select post_id from views where who_viewed = '".$_SERVER['REMOTE_ADDR']."')";
+              $where.= $notViews;
             }
-            
           }
 
           // Получаем посты
