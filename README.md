@@ -1,5 +1,5 @@
 # vktest
-DEMO: likesoul.com
+DEMO: <a href="likesoul.com">likesoul.com</a>
 
 <b>JS</b>:  engine\static\scripts/<br>
 <b>LESS</b>:  engine\static\styles/<br>
