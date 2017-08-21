@@ -51,7 +51,11 @@
     // слушаем скролл
     window.addEventListener("scroll", function(e){
       var scrollTop = window.pageYOffset;
-
+      
+      setTimeout(function(){
+        wall.scrollWallListener();
+      }, 1300);
+      
       // проверка на просмотр постов
       wall.scrollWallListener(e);
 
