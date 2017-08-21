@@ -4,7 +4,7 @@ DEMO: <a href="http://likesoul.com">likesoul.com</a>
 <b>JS</b>:  engine\static\scripts\
 <b>LESS</b>:  engine\static\styles\
 <b>TEMPLATES</b>: \engine\templates\main\tpl\
-<b>DB_STRINGS</b>: \engine\core\config.php\
+<b>DB_STRINGS</b>: \engine\core\config.php
 
 Основные файлы: main.js, control.php
 
