@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+	::selection {background: rgba(0,0,0,0.1);}
+	::-moz-selection {background: rgba(0,0,0,0.1);}
+
+	 a{color:inherit;text-decoration:inherit;margin:0;padding:0;outline: none;}
+	 a:hover{color:inherit;text-decoration:inherit;}
+	 a:visited{color:inherit;text-decoration:inherit;}
+	 textarea{font-family:inherit;font-size:inherit;}
+	
+	 img{margin:0;padding:0;}
+	 input, textarea{background:none;border:none;}
+	.main{width:100%;float:left;}
+	.pointer{cursor:pointer;}
+	 hr{width:100%;float:left;height:1px;background-color:rgba(0,0,0,0.1);border:none;outline:none;margin:0;padding:0;}
+	.mainbox{width:100%;float:left;background-color:#fff;border:1px solid rgba(0,0,0,0.085);border-radius:4px;min-height:45px;box-sizing:border-box;}
+	
+	.relative{position:relative !important;}
+	.fixed{position:fixed !important;}
+	.absolute{position:absolute !important;}
+	.hide{display: none;}
+	.show{display: block;}
+	.fl_r{float:right !important;}
+	.fl_l{float:left !important;}
+	
+	.noSelect{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;}
+	
+	.minHeight{width:100%;float:left;min-height:100vh;}
+	.nobottom{border-bottom:none !important;}
+	
+	.h7{width:100%;float:left;height:7.5px;}
+	.h5{width:100%;height:5px;float:left;}
+	.h10{width:100%;height:10px;float:left;}
+	.h15{width:100%;height:15px;float:left;}
+	.h20{width:100%;height:20px;float:left;}
+	.h25{width:100%;height:25px;float:left;}
+	.h30{width:100%;height:30px;float:left;}
+	.h50{width:100%;height:50px;float:left;}
+	.h100{width:100%;height:100px;float:left;}
+	.cnt{width:1000px;margin:0 auto;}
+	.cntFl{width:100%;float:left;}
+	
+	.justify{text-align: justify;}
+
+	.x20{width:20%;float:left;}
+	.x25{width:25%;float:left;}
+	.x50{width:50%;float:left;}
+	.x75{width:75%;float:left;}
+
+	.w15{width:15px;min-height:15px;float:left;}
+
+	/* Rules for sizing. */
+	
+	.md-11 { font-size: 11px !important; }
+	.md-12 { font-size: 12px !important; }
+	.md-13 { font-size: 13px !important; }
+	.md-14 { font-size: 14px !important; }
+	.md-15 { font-size: 15px !important; }
+	.md-16 { font-size: 16px !important; }
+	.md-17 { font-size: 17px !important; }
+	.md-18 { font-size: 18px !important; }
+	.md-19 { font-size: 19px !important; }
+	.md-20 { font-size: 20px !important; }
+	.md-21 { font-size: 21px !important; }
+	.md-22 { font-size: 22px !important; }
+	.md-23 { font-size: 23px !important; }
+	.md-24 { font-size: 24px !important; }
+	.md-25 { font-size: 25px !important; }
+	.md-26 { font-size: 26px !important; }
+	.md-27 { font-size: 27px !important; }
+	.md-28 { font-size: 28px !important; }
+	.md-29 { font-size: 29px !important; }
+	.md-30 { font-size: 30px !important; }
+	.md-31 { font-size: 31px !important; }
+	.md-32 { font-size: 32px !important; }
+	.md-35 { font-size: 35px !important; }
+	.md-40 { font-size: 40px !important; }
+	.md-45 { font-size: 45px !important; }
+	.md-50 { font-size: 50px !important; }
+	.md-55 { font-size: 55px !important; }
+	.md-60 { font-size: 60px !important; }
+	.md-65 { font-size: 65px !important; }
+	.md-70 { font-size: 70px !important; }
+	.md-75 { font-size: 75px !important; }
+	.md-80 { font-size: 80px !important; }
+	.md-85 { font-size: 85px !important; }
+	.md-90 { font-size: 90px !important; }
+	.md-95 { font-size: 95px !important; }
+	.md-100 { font-size: 100px !important; }
+	.md-150 { font-size: 150px !important; }
+	.md-200 { font-size: 200px !important; }

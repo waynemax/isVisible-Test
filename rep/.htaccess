@@ -1,0 +1,28 @@
+AddDefaultCharset UTF-8
+DirectoryIndex  index.php
+php_flag register_globals On
+RewriteEngine On
+
+ErrorDocument 400 /404.php
+ErrorDocument 403 /404.php
+ErrorDocument 404 /404.php
+ErrorDocument 405 /404.php
+ErrorDocument 408 /404.php
+ErrorDocument 500 /404.php
+ErrorDocument 502 /404.php
+ErrorDocument 504 /404.php 
+
+RewriteRule ^thm+$ /thm.php [L,QSA]
+RewriteRule ^news+$ /index.php [L,QSA]
+RewriteRule ^control/(.*) /control.php?method=$1 [L,QSA]
+
+<limit get="" post="" head="">
+Order Allow,Deny
+Allow from all
+Deny from env=bad_bot
+</limit>
+
+<FilesMatch ".(htaccess|ini|tpl)$">
+  order allow,deny
+  deny from all
+</FilesMatch>
