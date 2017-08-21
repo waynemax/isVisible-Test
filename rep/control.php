@@ -184,7 +184,7 @@
                   
           if($addPost["status"]){
 
-            // Если всё нормально получаем добавленный пост и добавлем к результату
+            // Если всё нормально отдаём ID нового поста
             $insertId = intval($addPost['data']);
             $response = array(
               "postId" => $insertId
