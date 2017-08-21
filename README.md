@@ -14,6 +14,6 @@ GET http://likesoul.com/control/posts.get - Получение постов<br>
 vars: $id, @offset, $count
 <br><br>
 POST http://likesoul.com/control/posts.add - Добавление поста<br>
-<br><br>
+<br>
 POST http://likesoul.com/control/posts.view - Добавление поста<br>
 vars: $id
