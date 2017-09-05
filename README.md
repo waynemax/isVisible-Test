@@ -1,4 +1,4 @@
-# vktest
+# isVisible test
 DEMO: <a href="http://likesoul.com">likesoul.com</a>
 
 <b>JS</b>:  engine\static\scripts\
